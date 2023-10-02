@@ -1,13 +1,30 @@
+:root {
+    --my-color: white;
+    --second-color: greenyellow;
+    --my-background-color: black;
+    --my-button-background-color: crimson;
+
+}
+
 body {color: white;
-background-color: black;
+background-color: var(--my-background-color);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: medium;}
 
 .logo {
     font-size: large;
-    color:greenyellow;
+    color: var(--second-color);
+
 }
 
 .link {
     text-decoration: none;
+}
+.text-deco {
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+.button-deco {
+    background-color: var(--my-button-background-color);
+    color: var(--my-color);
 }
