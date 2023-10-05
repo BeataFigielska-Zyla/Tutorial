@@ -1,21 +1,17 @@
 :root {
-    --my-color: white;
-    --second-color: greenyellow;
-    --my-background-color: black;
+    --my-color: black;
+    --second-color: red;
+    --my-background-color: white;
     --my-button-background-color: crimson;
 
 }
 
-body {color: white;
+body {
+color: var(--my-color);
 background-color: var(--my-background-color);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: medium;}
 
-.logo {
-    font-size: large;
-    color: var(--second-color);
-
-}
 
 .link {
     text-decoration: none;
