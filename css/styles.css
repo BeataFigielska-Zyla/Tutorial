@@ -12,6 +12,11 @@ background-color: var(--my-background-color);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: medium;}
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
 
 .link {
     text-decoration: none;
