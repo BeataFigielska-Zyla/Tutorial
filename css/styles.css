@@ -3,6 +3,8 @@
     --red-color: rgb(216, 52, 52);
     --white-color: white;
     --rose-color: rgb(210, 65, 94);
+    --blue-color: rgb(54, 29, 135);
+    
 
 }
 
@@ -13,7 +15,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-size: medium;}
 
 .container {
-    width: 1000px; 
+    width: 1500px; 
 }
 
 .header-container {
@@ -44,7 +46,7 @@ font-size: medium;}
     color: var(--red-color);
 }
 
-.link:hover {color: var(--rose-color);}
+.link:hover {color: var(--blue-color);}
 
 .button-deco {
     background-color: var(--rose-color);
