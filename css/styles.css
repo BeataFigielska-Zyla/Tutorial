@@ -56,7 +56,15 @@ font-size: medium;}
     border-radius: 10px;
 }
 
+.button-deco:hover {
+    background-color: var(--blue-color);
+}
+
 .logo {
     border: 4px solid var(--red-color);
+}
+
+.logo:hover {
+    border: 4px solid var(--blue-color);
     border-radius: 5px;
 }
