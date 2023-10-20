@@ -83,3 +83,17 @@ align-items: center;
 gap: 20px;
 
 }
+
+h1 {
+    animation-name: modalwindow;
+    animation-duration: 5s;
+}
+
+@keyframes modalwindow {
+
+    0% {border: 5px solid var(--rose-color);}
+    25% {border: 4px solid var(--red-color);}
+    50% {border: 3px solid var(--rose-color);}
+    75% {border: 2px solid var(--red-color);}
+    100% {border: 1px solid var(--rose-color);}
+}
