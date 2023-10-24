@@ -4,6 +4,7 @@
     --white-color: rgb(255, 255, 255);
     --rose-color: rgb(210, 65, 94);
     --blue-color: rgb(54, 29, 135);
+    --lightrose-color: rgb(221, 148, 163);
     
 
 }
@@ -71,7 +72,7 @@ font-size: 20px;}
     
 }
 
-p::first-letter {
+.container>p::first-letter {
     font-size: 35px;
     color: var(--red-color);
 }
@@ -96,4 +97,37 @@ h1 {
     50% {border: 3px solid var(--rose-color);}
     75% {border: 2px solid var(--red-color);}
     100% {border: 1px solid var(--rose-color);}
+}
+
+form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 12px;
+    line-height: 1.5;
+    border: 3px dashed var(--black-color);
+    padding: 10px;
+    background-color: var(--lightrose-color);
+}
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    width: 1500px;
+}
+
+input {
+    height: 24px;
+    border: 3px solid var(--black-color);
+}
+
+.radio {
+    display: flex;
+    justify-content:space-around;
 }

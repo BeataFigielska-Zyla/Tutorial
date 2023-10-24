@@ -87,7 +87,76 @@
         </svg>
 
     </div>
+    <div class="form-container">
+    <form>
+        <label>
+            Username
+            <input type="text" name="Username"/>
+        </label>
+        <label>
+            Email
+            <input type="email" name="email"/>
+        </label>
+        <label>
+            Password
+            <input type="password" name="password" minlength="5" maxlength="10"/>
+        </label>
+        
+        Choose a sex:
+        <div class="radio">
+       
+        <label>
+            woman
+            <input type="radio" name="sex" value="woman"/>
+        </label>
+        <label>
+            man
+            <input type="radio" name="sex" value="man" checked/>
+        </label>
+        <label>
+            non-binary person
+            <input type="radio" name="sex" value="man"/>
+        </label>
+        </div>
+What is your creative activity?
+        <div class="radio">
+            
+            <label>
+                painting
+                <input type="checkbox" name="activity" value="painting"/>
+            </label>
+            <label>
+                sewing
+                <input type="checkbox" name="activity" value="sewing" checked/>
+            </label>
+            <label>
+                embroidery
+                <input type="checkbox" name="activity" value="embroidery"/>
+            </label>
+            <label>
+                other
+                <input type="checkbox" name="activity" value="other" />
+            </label>
+            </div>
+            <label>
+                How many pieces of art have you done?
+                <input type="range" name="art" min="0" max="1000" step="1"/>
+            </label>
+        
+        <label>
+            What is your favourite number
+            <input type="number" name="number" min="1" max="9"/>
+        </label>
 
+        <label>
+            Date od birth:
+            <input type="date">
+        </label>
+
+        <button class="button-deco" type="submit">submit</button>
+        
+    </form>
+</div>
 
     </main>
 
